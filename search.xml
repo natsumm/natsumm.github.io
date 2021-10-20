@@ -4,51 +4,25 @@
   
     
     <entry>
-      <title>demo02</title>
-      <link href="/2021/10/20/demo02/"/>
-      <url>/2021/10/20/demo02/</url>
+      <title>babe-hello</title>
+      <link href="/2021/10/20/babe-hello/"/>
+      <url>/2021/10/20/babe-hello/</url>
       
-        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>测试代码块</p><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> String <span class="token function">sendMultiMail</span><span class="token punctuation">(</span><span class="token annotation punctuation">@NotNull</span> <span class="token keyword">final</span> MailInfo mailInfo<span class="token punctuation">)</span><span class="token punctuation">{</span>        String sendStatus <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">//环境</span>        Session session <span class="token operator">=</span> Session<span class="token punctuation">.</span><span class="token function">getDefaultInstance</span><span class="token punctuation">(</span>props<span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">Authenticator</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>            <span class="token annotation punctuation">@Override</span>            <span class="token keyword">protected</span> PasswordAuthentication <span class="token function">getPasswordAuthentication</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>                <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">PasswordAuthentication</span><span class="token punctuation">(</span>fromAddr<span class="token punctuation">,</span>password<span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token punctuation">}</span>        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">return</span> sendStatus<span class="token punctuation">;</span>    <span class="token punctuation">}</span></code></pre><p>html</p><pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span><span class="token punctuation">></span></span>Hello World<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre><pre class=" language-shell"><code class="language-shell">sudo vim test.txt</code></pre><blockquote><p>测试引用</p></blockquote><p>插入图片</p><p><img src="demo02/image-20211020160805945.png" alt="image-20211020160805945"></p><p>assert 图片</p><img src="/2021/10/20/demo02/image-20211020160805945.png" class="" title="This is an example image">]]></content>
+        <content type="html"><![CDATA[<p>​       </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;宝宝，你知道我遇见你之前，是什么都不信的，什么神呀，老天爷呀之类的都不信，但是遇见你之后我突然觉得命运让我蹉跎这么几年就是为了等你，我们现在发生的一切都不是偶然的。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我超喜欢你呀宝宝！</p><img src="/2021/10/20/babe-hello/we01.jpg" class="" title="babe">]]></content>
       
       
       <categories>
           
-          <category> bb </category>
+          <category> babe </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> aa </tag>
+            <tag> babe </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2021/10/20/hello-world/"/>
-      <url>/2021/10/20/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>demo01</title>
-      <link href="/2021/10/19/demo01/"/>
-      <url>/2021/10/19/demo01/</url>
-      
-        <content type="html"><![CDATA[<p>你好</p><p>这里是测试博文</p><p>以后的日子里, 请多关照呀;</p>]]></content>
-      
-      
       
     </entry>
     
